@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/Simsign.png" type="image/png">
+    <title>Joe - Your Personal Assistant</title>
+</head>
+<body class>
+    <!-- Preload animation videos -->
+    <video src="./animations/idleAnim.mp4" style="display: none;" preload="auto"></video>
+    <video src="./animations/talkAnim.mp4" style="display: none;" preload="auto"></video>
+
+    <video src="./animations/idleAnim.mp4" autoplay muted loop class="joeBot joeVideo" style="display: none;"></video>
+    <h1 class="title">Joe, Voice Assistant</h1>
+    <div class="menu">
+        <a href="javascript:start()" class="button">Start</a>
+        <hr style="height: 20px; border: none;">
+        <a href="https://razorlabs.tech" target="_blank" class="button">Commands</a>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
