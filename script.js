@@ -39,9 +39,9 @@ recognition.onresult = function(event) {
     else if (command.includes("please tell me about your company")) {
         speak ("Welcome to Simsign. A hub created to hold entities driven by problem solving. Founded by Joseph Mensah");
     }
-    else if (command.includes("take me to your company's page")) {
-        speak ("ok, I will redirect you to our company page");
-        window.open("https://www.instagram.com/simsignconcept/");
+    else if (command.includes("open my instagram")) {
+        speak ("ok, taking you to your instagram page");
+        window.open("https://www.instagram.com/joey__simms/");
     }
     else if (command.includes("open google")){
         speak ("opening Google");
