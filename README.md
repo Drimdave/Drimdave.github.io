@@ -1,2 +1,2 @@
 # Drimdave.github.io
-A Voice Assistant created using JavaScript
+A Virtual Assistant created using JavaScript
